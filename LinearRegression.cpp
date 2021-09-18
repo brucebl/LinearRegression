@@ -182,8 +182,3 @@ void LinearRegression::updateWeights(){
         weightVec.at(i) = newWeight;   
     }
 }
-
-
-
-
-

@@ -12,9 +12,10 @@ using namespace std;
 *   sale price for the corresponding row in the training data file.
 *   Training Data File:
 *   3   2   1100
-
+*
 *   Target Data File:
 *   250000
+*
 *   @author Bruce Blum 
 */
 int main(){
@@ -146,7 +147,7 @@ int main(){
 
         price = linReg->estimate(testVect);
 
-        cout << "Estimated price " << price << endl;
+        cout << "Estimated price: " << price << endl;
     }
 
     return 0;
