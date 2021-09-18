@@ -1,3 +1,9 @@
+/**
+ * Implementation of linear regression using gradient descent.
+ * 
+ * @author Bruce Blum
+ */
+
 #include "LinearRegression.h"
 
 #include <iostream>

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/*
+/**
 *   Example of how to use the LinearRegression class.
 *   Program requires two data files for the training data and
 *   target data. For example, house price estimate based on bedrooms,
@@ -15,6 +15,7 @@ using namespace std;
 
 *   Target Data File:
 *   250000
+*   @author Bruce Blum 
 */
 int main(){
     string trainDataFName;
